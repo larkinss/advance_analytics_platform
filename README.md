@@ -13,9 +13,3 @@ Databricks analytics platform deployed with Declarative Automation Bundles and G
 - **Pull request**: lint, tests, `bundle validate`
 - **Merge to main**: deploy to **dev**, then deploy to **prod** after approval
 
-## Quick start
-```bash
-databricks auth login --host <workspace-url>
-databricks bundle deploy -t dev
-databricks bundle run daily_etl -t dev
-```
